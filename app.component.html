@@ -1,0 +1,13 @@
+<input [(ngModel)]="name"><br>
+
+<select  [(ngModel)]="city">
+  <option>city</option>
+  <option>bbsr</option>
+  <option>bdk</option>
+  <option>bhm</option>
+  <option>ctc</option>
+
+</select>
+<br><br><br>
+<button (click)="fun_data()"> get the data</button>
+{{data | json}}
